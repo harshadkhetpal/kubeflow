@@ -1,3 +1,18 @@
+## 🧑‍💻 My Fork — Harshad Khetpal (DevOps / MLOps Engineer)
+
+I use this fork of Kubeflow to **orchestrate end-to-end ML pipelines on Kubernetes** — from data preprocessing through model training to serving. Core infrastructure for scalable ML workflows.
+
+### My Setup
+- Deployed on GKE with Workload Identity for secure GCS/BigQuery access
+- KFP pipelines for automated model retraining triggered by data drift alerts
+- Katib for hyperparameter optimization on distributed training jobs
+- KServe for model serving with custom transformers for preprocessing
+
+### Why I forked this
+Exploring custom pipeline components for MLOps best practices — reproducible pipelines, metadata lineage tracking, and automated A/B testing infrastructure.
+
+---
+
 # Kubeflow
 
 [![Join Kubeflow Slack](https://img.shields.io/badge/slack-join_chat-white.svg?logo=slack&style=social)](https://www.kubeflow.org/docs/about/community/#kubeflow-slack-channels)
